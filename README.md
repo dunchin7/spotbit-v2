@@ -1,7 +1,9 @@
-ccxt-microservice
+Spotbit
 =================
 
-Micro service to call cryptocurrency exchanges API using [ccxt](https://github.com/ccxt/ccxt).
+ Micro-service to call cryptocurrency exchanges API using [ccxt](https://github.com/ccxt/ccxt).
+ 
+
 
 # Usage
 
