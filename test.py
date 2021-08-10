@@ -15,7 +15,7 @@ def test_fetch_ticker():
 
 
 def test_parallel_fetch_ticker():
-    response = post("/parallel/bittrex/fetch_ticker", [{"symbol": "ETH/BTC"}, {"symbol": "BCH/BTC"}])
+    response = post("/parallel/bittrex/fetch_ticker", [{"symbol": "ETH/BTC"}, {"symbol": "LTC/BTC"}])
     assert(response.status_code == 200)
 
 
